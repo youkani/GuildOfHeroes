@@ -34,6 +34,7 @@ Console.WriteLine($"<<Фильм {interstellar.Name}>>");
 Console.WriteLine($"{interstellar.Data} года создания");
 Console.WriteLine($"Жанр: {interstellar.Genre}");
 Console.WriteLine($"Оценка: {interstellar.Rating}./10");
+Console.WriteLine($"доступность: {interstellar.Status}");
 
 Console.WriteLine();
 
@@ -41,6 +42,7 @@ Console.WriteLine($"<<Фильм {shutterIsland.Name}>>");
 Console.WriteLine($"{shutterIsland.Data} года создания");
 Console.WriteLine($"Жанр: {shutterIsland.Genre}");
 Console.WriteLine($"Оценка: {shutterIsland.Rating}./10");
+Console.WriteLine($"доступность: {shutterIsland.Status}");
 
 Console.WriteLine();
 
@@ -48,3 +50,4 @@ Console.WriteLine($"<<Фильм {spiderMan.Name}>>");
 Console.WriteLine($"{spiderMan.Data} года создания");
 Console.WriteLine($"Жанр: {spiderMan.Genre}");
 Console.WriteLine($"Оценка: {spiderMan.Rating}./10");
+Console.WriteLine($"доступность: {spiderMan.Status}");
